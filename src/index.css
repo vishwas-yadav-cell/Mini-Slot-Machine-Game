@@ -1,29 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
-    background:#FFFDD0;
-}
+    /* font-family: 'Montserrat', sans-serif; */
 
-div{
-    padding:0;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background: orange;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction: column;
-    border-radius: 12px;
-    margin: 60px 100px;
 }
 
-li{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size:10vh;
+body{
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/80d08dde-2e2b-4ba9-9147-9952d3ab09a9/42624233-9070-41e0-903b-6953e64c8bd1/IN-en-20201012-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+}
+
+.cards{
+   margin: 40px 40px;
+}
+
+.card{
+    float: left;
+    width: 20%;
+    height:auto;
+    padding: 0 20px;
+    border: 1px solid red;
+    margin: 15px 30px;
+    border-radius: 8px;
+    background:rgb(12, 12, 12);
+    box-shadow: 0px 4px 10px 1px rgba(97, 97, 97, 0.75);
+}
+
+.card:hover{
+    transition:0.35s ease-in-out;
+    box-shadow: 3px 10px 12px 1px rgba(235, 26, 26, 0.75);
+}
+
+.card > img{
+    height: 200px;
+    width: 200px;
     margin: 10px;
-    color: #dc2020;
+    border-radius: 100px;
+    border: 2px solid white;
 }
 
-span{
-    color: rgb(31, 41, 80);
+button{
+    background:white;
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 20px 5px;
+    padding: 8px;
+    border:2px solid red;
+    border-radius:18px;
+    font-weight: bold;
+}
+
+button:hover{
+    transition:0.35s;
+    background:red;
+    color: white;
+    border:2px solid white;
+}
+
+.navbar{
+    background:black;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar>nav>p{
+    float: right;
+    cursor: pointer;
+    margin: 40px 20px;
+    color: red;
+}
+
+.signIn{
+    background:red;
+    border:1px solid red;
+    padding:8px 10px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.or{
+    color: white;
+    cursor: default;
+    margin: 0 4px;
+}
+
+.signIn:hover{
+    transition:0.25s;
+    background:white;
+    border:1px solid red;
+    color:red;
+}
+
+.login:hover{
+    transition:0.35s;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
 }
