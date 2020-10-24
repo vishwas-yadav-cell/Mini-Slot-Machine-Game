@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mini-Slot-Machine-Game/static/css/main.5cdc34ba.chunk.css",
+    "main.js": "/Mini-Slot-Machine-Game/static/js/main.2b45c42a.chunk.js",
+    "main.js.map": "/Mini-Slot-Machine-Game/static/js/main.2b45c42a.chunk.js.map",
+    "runtime-main.js": "/Mini-Slot-Machine-Game/static/js/runtime-main.10a53a76.js",
+    "runtime-main.js.map": "/Mini-Slot-Machine-Game/static/js/runtime-main.10a53a76.js.map",
+    "static/js/2.02d57afb.chunk.js": "/Mini-Slot-Machine-Game/static/js/2.02d57afb.chunk.js",
+    "static/js/2.02d57afb.chunk.js.map": "/Mini-Slot-Machine-Game/static/js/2.02d57afb.chunk.js.map",
+    "index.html": "/Mini-Slot-Machine-Game/index.html",
+    "precache-manifest.0db840d2365bc94b8d3ecf827f9400de.js": "/Mini-Slot-Machine-Game/precache-manifest.0db840d2365bc94b8d3ecf827f9400de.js",
+    "service-worker.js": "/Mini-Slot-Machine-Game/service-worker.js",
+    "static/css/main.5cdc34ba.chunk.css.map": "/Mini-Slot-Machine-Game/static/css/main.5cdc34ba.chunk.css.map",
+    "static/js/2.02d57afb.chunk.js.LICENSE.txt": "/Mini-Slot-Machine-Game/static/js/2.02d57afb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10a53a76.js",
+    "static/js/2.02d57afb.chunk.js",
+    "static/css/main.5cdc34ba.chunk.css",
+    "static/js/main.2b45c42a.chunk.js"
+  ]
+}
