@@ -29,3 +29,20 @@
   text-align: center;
   font-family:"Raleway",sans-serif;
 }
+
+button{
+  position: absolute;
+  left: 35%;
+  right: 48%;
+  height:10%;
+  width: 300px;
+  border: 3px solid rgb(214, 237, 15);
+  padding: 15px;
+  border-radius: 8px;
+  background: rgb(34, 223, 40);
+  text-align: center;
+  font-family:"Raleway",sans-serif;
+  font-weight: bold;
+  font-size:18px;
+  margin-top: 16%;
+}
